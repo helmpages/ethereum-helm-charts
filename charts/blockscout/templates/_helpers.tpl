@@ -62,5 +62,5 @@ Create the name of the service account to use
 {{- end }}
 
 {{- define "blockscout.httpPort" -}}
-{{- printf "4000" -}}
+{{- printf "80" -}}
 {{- end -}}
